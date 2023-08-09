@@ -1,0 +1,18 @@
+@import '/src/Mixin/Mixin.scss';
+
+.navContainner{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navText{
+    @include fontz('Helvetica-Neue', 0.9375em,1em,400,#000000);
+    text-decoration: none;
+}
+
+.navText:hover{
+    color: #df1010;
+}
