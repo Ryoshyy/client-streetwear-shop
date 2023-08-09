@@ -1,0 +1,31 @@
+.NavAdminBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+
+  .AdminBtn {
+    display: flex;
+    gap: 2px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #4c7992;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+  }
+  .LogoutBtn {
+    display: flex;
+    gap: 2px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #691f1f;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+  }
+}
