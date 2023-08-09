@@ -1,0 +1,48 @@
+@import '/src/Mixin/Mixin.scss';
+
+.headerTop {
+    width: 100%;
+    height: 36px;
+    background-color: #F5F5F5;
+}
+
+.headerTopMain {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+        &__jordanImg {
+            align-self: center;
+            margin: 0px 5px 0px 5px;
+            width:20px;
+            height:18px;
+        }
+        &__navContainer {
+            width: 270px;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+}
+
+.navTextD{
+    @include fontz('Helvetica-Neue',0.8rem,1em,400,#000000);
+    text-decoration: none;
+}
+
+.navTextD:hover{
+    color: #df1010;
+}
+
+.navC:not(:last-child):after {
+    content:' |';
+    padding-left: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 97%;
+    margin: auto;
+    height: 100%;
+}

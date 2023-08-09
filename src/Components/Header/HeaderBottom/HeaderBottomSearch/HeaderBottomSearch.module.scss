@@ -1,0 +1,12 @@
+.headerBottomSearch{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+        &__searchInput{
+            width: 180px;
+            height: 40px;
+            background-color: #F5F5F5;
+            border-radius: 25px;
+        }
+}
