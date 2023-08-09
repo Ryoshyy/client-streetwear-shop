@@ -26,7 +26,6 @@ export const UpperHeader = () => {
         <>
           <Link to="/login">log in</Link>
           <Link to="/register">register</Link>
-
         </>
       )}
     </>

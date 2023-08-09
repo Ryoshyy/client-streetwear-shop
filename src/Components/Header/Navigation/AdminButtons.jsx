@@ -13,10 +13,10 @@ export default function Buttons({ isAuth, onClickLogout }) {
     <>
       {isAuth ? (
         <>
-          <div className={styles.NavAdminBtn}>
+          <div >
             <Link
               style={linkStyle}
-              className={styles.AdminBtn}
+              // className={styles.AdminBtn}
               to="/admin-panel"
             >
               <span>Admin</span>
@@ -25,7 +25,7 @@ export default function Buttons({ isAuth, onClickLogout }) {
 
             <Link
               style={linkStyle}
-              className={styles.LogoutBtn}
+              // className={styles.LogoutBtn}
               onClick={onClickLogout}
             >
               <span>Logout</span>
